@@ -1,22 +1,28 @@
 import Button from "../../components/Button";
 import styles from "./Home.module.scss";
 
+// Images
+import features1 from "/features-1.png";
+import features2 from "/features-2.png";
+import features3 from "/features-3.png";
+import features4 from "/features-4.png";
+
 const featuresList = [
   {
     label: "Responsive",
-    srcImg: "/features-1.png",
+    srcImg: features1,
   },
   {
     label: "Learning",
-    srcImg: "/features-2.png",
+    srcImg: features2,
   },
   {
     label: "Optimal UX/UI",
-    srcImg: "/features-3.png",
+    srcImg: features3,
   },
   {
     label: "Multidirectional",
-    srcImg: "/features-4.png",
+    srcImg: features4,
   },
 ];
 

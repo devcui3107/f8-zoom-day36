@@ -1,4 +1,4 @@
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { HashRouter, Route, Routes } from "react-router-dom";
 
 // Layouts
 import DefaultLayout from "../../layouts/DefaultLayout";
@@ -18,7 +18,7 @@ import NotFound from "../../pages/NotFound";
 
 function AppRoutes() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
         {/* DefaultLayout */}
         <Route element={<DefaultLayout />}>
@@ -43,7 +43,7 @@ function AppRoutes() {
         {/* Handle 404 */}
         <Route path="*" element={<NotFound />} />
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 export default AppRoutes;
