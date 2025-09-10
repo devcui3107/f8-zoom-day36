@@ -1,0 +1,15 @@
+.navbarList {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.navbarItem a {
+  color: #161616;
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+a.active {
+  color: #ef5744;
+}

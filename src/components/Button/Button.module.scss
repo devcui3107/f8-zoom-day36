@@ -1,0 +1,31 @@
+.wrapper {
+  display: inline-block;
+  border: 2px solid #161616;
+  border-radius: 999px;
+  background: #fff;
+  color: #161616;
+  font-size: 2.2rem;
+  font-weight: 600;
+  transition: transform 0.2s, box-shadow 0.2s;
+  cursor: pointer;
+
+  box-shadow: 5px 5px 0 0 #161616;
+
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 0 0 0 #161616;
+  }
+}
+
+// Size
+.medium {
+  padding: 1.5rem 3rem;
+}
+
+.small {
+  padding: 1rem 2rem;
+}
+
+.large {
+  padding: 2rem 4rem;
+}

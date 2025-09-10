@@ -1,0 +1,40 @@
+.notfound {
+  width: 500px;
+  margin: 8rem auto;
+  border-radius: 30px;
+  border: 2px solid #161616;
+  background: #fdfdfb;
+  padding: 60px 40px;
+  text-align: center;
+}
+
+.notfoundTitle {
+  font-size: 8rem;
+  font-weight: 700;
+  color: #f9b233;
+  margin-bottom: 2rem;
+}
+
+.notfoundDesc {
+  font-size: 1.8rem;
+  color: #444;
+  margin-bottom: 3rem;
+  line-height: 1.5;
+}
+
+.notfoundBtn {
+  display: inline-block;
+  padding: 1.2rem 2.5rem;
+  font-size: 1.6rem;
+  font-weight: 600;
+  border: 2px solid #161616;
+  border-radius: 12px;
+  background: #f9b233;
+  color: #161616;
+  text-decoration: none;
+  transition: 0.2s;
+
+  &:hover {
+    background: #e49f1c;
+  }
+}

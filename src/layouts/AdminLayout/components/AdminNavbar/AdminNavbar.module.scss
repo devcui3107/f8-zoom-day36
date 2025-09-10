@@ -1,0 +1,33 @@
+.navbarList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.navbarItem a {
+  display: block;
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: #161616;
+  text-decoration: none;
+  padding: 10px 15px;
+  border-radius: 12px;
+  transition: 0.2s;
+
+  &:hover {
+    background: #f9b233;
+    color: #fff;
+  }
+}
+
+.navbarItem a {
+  display: block;
+}
+
+a.active {
+  color: #ef5744;
+}

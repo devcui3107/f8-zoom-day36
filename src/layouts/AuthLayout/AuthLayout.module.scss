@@ -1,0 +1,14 @@
+.container {
+  width: 1420px;
+  max-width: 100%;
+  margin: 0 auto;
+  min-height: 700px;
+  display: flex;
+  gap: 2rem;
+  padding: 0 2rem;
+}
+
+.content {
+  position: relative;
+  flex: 1;
+}

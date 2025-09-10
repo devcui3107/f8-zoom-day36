@@ -1,0 +1,91 @@
+.register {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 500px;
+  margin: auto;
+  height: max-content;
+  border-radius: 30px;
+  border: 2px solid #161616;
+  background: #fdfdfb;
+  padding: 50px;
+  text-align: center;
+}
+
+.registerTitle {
+  font-size: 3.5rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.registerDesc {
+  font-size: 1.6rem;
+  line-height: 1.4;
+  color: #444;
+  margin-bottom: 3rem;
+}
+
+.registerForm {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.registerGroup {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.registerLabel {
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.registerInput {
+  width: 100%;
+  padding: 1.2rem 1.5rem;
+  border-radius: 12px;
+  border: 2px solid #161616;
+  font-size: 1.6rem;
+  outline: none;
+  background: #fff;
+
+  &:focus {
+    border-color: #f9b233;
+    box-shadow: 0 0 0 3px rgba(249, 178, 51, 0.3);
+  }
+}
+
+.registerBtn {
+  padding: 1.2rem;
+  font-size: 1.6rem;
+  font-weight: 600;
+  border: 2px solid #161616;
+  border-radius: 12px;
+  background: #f9b233;
+  cursor: pointer;
+  transition: 0.2s;
+  margin-top: 2rem;
+
+  &:hover {
+    background: #e49f1c;
+  }
+}
+
+.registerFooter {
+  margin-top: 2rem;
+  font-size: 1.4rem;
+
+  a {
+    font-weight: 600;
+    color: #f9b233;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
