@@ -1,0 +1,43 @@
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 3rem;
+}
+
+.paginationBtn {
+  padding: 0.8rem 2rem;
+  border: 2px solid #161616;
+  border-radius: 12px;
+  background: #fdfdfb;
+  cursor: pointer;
+  font-size: 1.6rem;
+  font-weight: 600;
+  transition: all 0.2s;
+
+  &:hover {
+    background: #161616;
+    color: #fff;
+  }
+}
+
+.paginationInfo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.6rem;
+  font-weight: 600;
+  height: 39px;
+  width: 39px;
+  border-radius: 10px;
+
+  &:hover {
+    background: #ccc;
+    cursor: pointer;
+  }
+}
+
+.active {
+  background: var(--primary-color);
+}

@@ -17,6 +17,18 @@
   }
 }
 
+// Variants
+.noShadow {
+  box-shadow: 0 0 0 0 #161616;
+}
+
+.disabled {
+  opacity: 0.5;
+  pointer-events: none;
+  user-select: none;
+  cursor: not-allowed;
+}
+
 // Size
 .medium {
   padding: 1.5rem 3rem;

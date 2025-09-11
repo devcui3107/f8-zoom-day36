@@ -9,6 +9,7 @@ import AdminLayout from "../../layouts/AdminLayout";
 import Home from "../../pages/Home";
 import About from "../../pages/About";
 import Posts from "../../pages/Posts";
+import PostDetail from "../../pages/PostDetail";
 import Login from "../../pages/Login";
 import Register from "../../pages/Register";
 import Settings from "../../pages/Settings";
@@ -25,6 +26,7 @@ function AppRoutes() {
           <Route index element={<Home />} />
           <Route path="about" element={<About />} />
           <Route path="posts" element={<Posts />} />
+          <Route path="posts/:id" element={<PostDetail />} />
         </Route>
 
         {/* AuthLayout */}

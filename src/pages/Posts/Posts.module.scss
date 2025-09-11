@@ -1,0 +1,59 @@
+.posts {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 60px 30px;
+  border-radius: 20px;
+  border: 2px solid #161616;
+  background: #fdfdfb;
+}
+
+.postsHeader {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.postsTitle {
+  font-size: 5rem;
+  font-weight: 600;
+}
+
+.postsDesc {
+  font-size: 1.6rem;
+  line-height: 1.5;
+  margin-top: 2rem;
+}
+
+.postsList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.6rem;
+}
+
+.postItem {
+  flex: 20%;
+  padding: 2rem;
+  height: 100px;
+  border-radius: 20px;
+  border: 2px solid #161616;
+  background: #fff;
+  overflow: hidden;
+}
+
+.postTitle {
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+.postDate {
+  display: block;
+  margin-top: 0.5rem;
+  font-size: 1.2rem;
+  color: #555;
+}
+
+.postExcerpt {
+  margin-top: 1rem;
+  font-size: 1.4rem;
+  line-height: 1.5;
+}
