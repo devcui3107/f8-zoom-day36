@@ -5,11 +5,16 @@ import DefaultLayout from "../../layouts/DefaultLayout";
 import AuthLayout from "../../layouts/AuthLayout";
 import AdminLayout from "../../layouts/AdminLayout";
 
+// Location
+import ScrollToTop from "../ScrollToTop";
+
 // Pages
 import Home from "../../pages/Home";
 import About from "../../pages/About";
 import Posts from "../../pages/Posts";
 import PostDetail from "../../pages/PostDetail";
+import Contact from "../../pages/Contact";
+import Privacy from "../../pages/Privacy";
 import Login from "../../pages/Login";
 import Register from "../../pages/Register";
 import Settings from "../../pages/Settings";
@@ -20,6 +25,7 @@ import NotFound from "../../pages/NotFound";
 function AppRoutes() {
   return (
     <HashRouter>
+      <ScrollToTop />
       <Routes>
         {/* DefaultLayout */}
         <Route element={<DefaultLayout />}>
@@ -27,6 +33,8 @@ function AppRoutes() {
           <Route path="about" element={<About />} />
           <Route path="posts" element={<Posts />} />
           <Route path="posts/:id" element={<PostDetail />} />
+          <Route path="contact" element={<Contact />} />
+          <Route path="privacy" element={<Privacy />} />
         </Route>
 
         {/* AuthLayout */}

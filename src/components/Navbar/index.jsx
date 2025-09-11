@@ -14,6 +14,14 @@ const navBarList = [
     to: "/posts",
     title: "Posts",
   },
+  {
+    to: "/contact",
+    title: "Contact",
+  },
+  {
+    to: "/privacy",
+    title: "Privacy",
+  },
 ];
 
 function Navbar() {
